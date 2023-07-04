@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const students = [
     { name : "Sonia", birth : "2019-14-05"},
     { name : "Antoine", birth : "2000-12-05"},
@@ -9,7 +11,6 @@ const students = [
 const http = require('http');
 const fs = require('fs');
 const ejs = require('ejs');
-require('dotenv').config();
 
 http.createServer((req, res) => {
     switch (req.url) {
