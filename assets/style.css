@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    display: flex;
+    margin: auto;
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+button:hover,
+button:focus {
+     background-color: #07c;
+}
+
+button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
+
+
+.form-row {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}

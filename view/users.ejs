@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TP Node</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+  </head>
+  <body>
+    <h1>TP Students</h1>
+    <ul>
+      <% students.forEach((student) => { %>
+        <li><%= student.name %>, anniversaire : <%= student.birth %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
